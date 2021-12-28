@@ -1,0 +1,9 @@
+.root {
+  background: rgba(0, 0, 0, 0.634);
+  text-align: center;
+}
+
+.container {
+  color: white;
+  font-size: 20px;
+}

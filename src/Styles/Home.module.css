@@ -1,0 +1,108 @@
+.sections {
+  background-color: #f0f0f0;
+}
+
+.address {
+  color: #ff0000;
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+
+.address:hover {
+  color: limegreen;
+}
+.link {
+  background-color: rgba(0, 0, 0, 0.767);
+  width: 15vw;
+  border-radius: 10px;
+  text-decoration: none;
+  align-self: center;
+  color: lightgreen;
+  margin: 10px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.5s;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.link:hover {
+  background-color: green;
+  color: white;
+}
+
+.para {
+  color: rgba(0, 0, 0, 0.466);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.emails {
+  color: rgba(0, 0, 0, 0.733);
+  margin: 5px;
+  list-style: none;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  align-self: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.containerBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.biodata {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 33vw;
+  background: white;
+  font-weight: 300;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.266);
+  font-family: cursive !important;
+  letter-spacing: 0.5px;
+  transition: all 0.5s;
+}
+
+.biodata:hover {
+  box-shadow: 15px 7px 7px rgba(0, 0, 0, 0.466);
+  transform: translateX(-2px);
+  background-color: aquamarine;
+}
+
+span {
+  font-weight: bold;
+}
+.address {
+  margin-top: 5px;
+  padding-left: 10px;
+  color: darkgray;
+  text-decoration: none;
+}
+.biodata > h1 {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .biodata {
+    width: 80vw;
+  }
+  .link {
+    width: 45vw;
+  }
+}

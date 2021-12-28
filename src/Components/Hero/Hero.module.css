@@ -1,0 +1,25 @@
+@value light from "../../css/colors.css";
+
+.root {
+  background: light;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.title {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.466);
+  font-family: 'Roboto';
+  font-style: italic;
+  transition: all 0.5s;
+}
+
+.title:hover {
+  color: green;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: rgb(125, 147, 243);
+  text-transform: capitalize;
+}
